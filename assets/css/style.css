@@ -1,0 +1,323 @@
+/*Base do CSS*/
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* isso coloca todos os elementos do site em tipo de caixa*/
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:black ;
+    height: 100vh; /*altura padrao tomando todo espaço do tela. */
+
+}
+
+.interface{/* centralizer o conteudo afastando o barra mune ou mais conteudos*/
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 1px;
+    /*remover borda*/
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover, form .btn-enviar:hover {
+    box-shadow: 0px/*vertical*/0px/*lateral*/8px
+        #00ff08;
+    transform: scale(1.05);
+
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+h2.titulo span{
+    color: #00ff08;
+}
+/* CSS STILO MENU */
+header {
+    padding: 40px 4%;/*epaçamento*/
+}
+.img-logo{
+    width: 80px;/*largura*/
+    height: 80px;/*altura*/
+    border-radius: 100%;/*dexando as bordas redondas*/
+}
+.img-logo{
+    box-shadow: 0px0px8px
+#00ff08;
+        transform: scale(1.05);
+}
+/*colocar os elementos do lado um do outro no menu. devido a esse > elemento so funciana no header*/
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/*todos os links do header*/
+header a{
+    color: rgb(55, 53, 53);
+    text-decoration: none;/*removendo sobreado*/
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+   
+}
+
+header nav ul{
+    list-style: none;/*removendo as marcaçao*/
+}
+
+header nav ul li{
+    display: inline-block;/**/
+    padding: 0 40px;/*epaçamento*/
+}
+
+/*ESTILO DO TOPO DO SITE */
+section.topo-site{
+    padding: 40px 5%;
+}
+section .topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.topo-site h1{
+    color:#fff;
+    font-size: 46px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.topo-site .txt-topo-site h1 span{
+    color: #00ff08;
+}
+.topo-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0%;
+}
+.img-topo {
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.topo-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/*SERVICO*/
+section.meus-servico{
+    padding: 42px 4%;
+}
+section.meus-servico .servico .flex{
+    justify-content: space-around;
+    
+}
+.meus-servico .servico .servico-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+.meus-servico .servico .servico-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00ff08;
+}
+.meus-servico .servico .servico-box i{
+   color: #00ff08;
+   font-size: 70px;
+
+}
+.meus-servico .servico .servico-box h3{
+   color: #fff;
+   font-size: 20px;
+   margin: 15px 0;
+   padding: 10px;
+}
+/*SOBREMIM*/
+
+section.sobre-mim{
+    padding: 80px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.img-sobre{
+   width: 100%;
+   border-radius: 20px;
+   margin-right: 50px;
+}
+.sobre-mim .txt-sobre {
+    color: #fff;
+}
+.sobre-mim .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre-mim .txt-sobre h2 span {
+    color: #00ff08;
+    display: block;
+}
+.sobre-mim .txt-sobre p {
+    text-align: justify;
+    margin: 20px 0%;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #00ff08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+/*PORTIFÓLIO*/
+section.portifolio{
+    padding: 40px 4%;
+    box-shadow: 0px 0px 40px 10px #1d1d1d;
+}
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    padding: 20px;
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 1%;
+    transition: 4s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 1% 100%;
+}
+.overley{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    opacity: 0px;
+    transition: 1.5s;
+    color:#fff
+
+}
+.overley:hover{
+    opacity: 1;
+    
+}
+/*MENSAGEM!!*/
+
+section.formulario{
+    padding: 90px 4%;
+
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input{
+    width: 100%;
+    font: 600;
+    font-size: 15px;
+    color: #00ff08;
+    background-color: #2e2c2c;
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 15px;
+
+}
+label{
+    color: #00ff08;
+}
+form textarea{
+    resize: none;
+    background-color: #2e2c2c;
+    color:#00ff08;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form .btn-enviar{
+    background-color: #00ff08;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1.2s;    
+}
+/*RODAPÉ*/
+footer{
+    padding: 80px 4%;
+    box-shadow:0px 0px 10px #00ff08;
+}
+footer .flex{
+    justify-content: space-between;
+   
+}
+
+footer .linefooter p i{
+    color: #00ff08;
+    font-size: 20px;
+    padding: 0px;
+    
+
+}
+footer .linefooter p a{
+    color:#fff;
+    padding:10px;
+    
+}
+.linefooter{
+    margin-top: 30px;
+    text-align: center;
+}
+.txt-footer{
+    padding-right: 10px;
+    font-size:12px;
+    color: #00ff08;
+    text-align: left;
+}

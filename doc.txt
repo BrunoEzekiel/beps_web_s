@@ -1,0 +1,32 @@
+Decumento do site DEVBRN.
+
+vou dividir em partes:
+
+1 = menu:
+(logo, inicio, especialidades, sobre, projetos, e botao<contato>)
+(essa parte do codigo vai se repetir assim como as cores de fundos e fontes)
+// todas a funçoes estao inativas> priciso cria um banco de dodos para receber os cotatos e de clientes.
+
+2 = topo: 
+temos parte principal do site ou lind page. com btao  inativos de contato e uma imagem flutando. 
+
+3 = meus servios:
+tenho tres serviços que acho que nao ficou claro o quero trabalhar.
+
+4 = sobre: 
+com botoes inativos de redes sociais.
+
+5 = conteudo:
+meu portifolio esta sem imagem de protudos.
+
+6 = final:
+fala comigo esta inativo.
+
+7 = rodape:
+ botes de redes sociais e link para email.
+email esta ok funcianando prefetamente.(preciso outomatizar o serviço de retorno.)
+
+proximos servios:
+colocar site para fucinionar.
+>> hospedar
+>> cria todas as rotas (back and)
