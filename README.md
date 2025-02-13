@@ -1,19 +1,20 @@
-1. Site de Serviços tipo portifolio
-![imagem_principal](/assets/img/1.png)
-![menu](/assets/img/menu.png)
-![sobre](/assets/img/sobre.png)
-![contato-me](/assets/img/5.png)
-
-# Documentação do Projeto Landing Page - Django
-
+# Projeto Landing Page - Django
 ## Descrição do Projeto
 Este projeto é uma Landing Page desenvolvida utilizando Django para gerenciar e exibir serviços oferecidos. O objetivo é fornecer um sistema dinâmico onde serviços podem ser cadastrados, gerenciados e exibidos de forma intuitiva.
+![imagem_principal](/assets/img/1.png)
 
 ## Tecnologias Utilizadas
 - **Python**: Linguagem principal do backend
 - **Django**: Framework web para gerenciamento do backend
 - **HTML/CSS**: Estruturação e estilização da interface
 - **SQLite**: Banco de dados padrão do Django
+
+![menu](/assets/img/menu.png)
+![sobre](/assets/img/sobre.png)
+![contato-me](/assets/img/5.png)
+
+
+
 
 ## Estrutura do Projeto
 1. **Configuração do Django**
