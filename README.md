@@ -1,4 +1,4 @@
-# Projeto Landing Page - Django
+# Projeto Landing Page - com backend em Django
 ## Descrição do Projeto
 Este projeto é uma Landing Page desenvolvida utilizando Django para gerenciar e exibir serviços oferecidos. O objetivo é fornecer um sistema dinâmico onde serviços podem ser cadastrados, gerenciados e exibidos de forma intuitiva.
 ![imagem_principal](/assets/img/1.png)
