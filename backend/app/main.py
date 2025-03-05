@@ -16,8 +16,3 @@ async def submit_message(
             "data": {"name": name, "email": email, "message": message}
         }
     )
-
-
-@app.get("/")
-def read_root():
-    return {"message": "OI! I'm alive!"}
