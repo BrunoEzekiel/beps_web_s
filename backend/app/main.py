@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
-@app.post("/submit-message/")
+@app.post("/")
 async def submit_message(
     name: str = Form(...),
     email: str = Form(...),
